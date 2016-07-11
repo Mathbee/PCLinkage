@@ -1,4 +1,4 @@
-package cn.itcast.web.servlet;
+package com.zhangqi.web.servlet;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -17,7 +17,7 @@ public class CityServlet extends HttpServlet {
 	public void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		request.setCharacterEncoding("utf-8");
-		response.setContentType("text/xml;charset=utf-8");//注意：发送xml这里要修改！！！
+		response.setContentType("text/xml;charset=utf-8");
 		
 		/*
 		 * 获取省份名称，加载该省对应的<province>元素！
